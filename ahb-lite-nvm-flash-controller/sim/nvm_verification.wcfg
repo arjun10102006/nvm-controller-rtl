@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="nvm_controller_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="nvm_controller_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="505.145 ns"></ZoomStartTime>
+      <ZoomEndTime time="533.946 ns"></ZoomEndTime>
+      <Cursor1Time time="685.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/nvm_controller_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HSEL_FLASH" type="logic">
+      <obj_property name="ElementShortName">HSEL_FLASH</obj_property>
+      <obj_property name="ObjectShortName">HSEL_FLASH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HREADY" type="logic">
+      <obj_property name="ElementShortName">HREADY</obj_property>
+      <obj_property name="ObjectShortName">HREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HTRANS" type="array">
+      <obj_property name="ElementShortName">HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HSIZE" type="array">
+      <obj_property name="ElementShortName">HSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HADDR" type="array">
+      <obj_property name="ElementShortName">HADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HWRITE" type="logic">
+      <obj_property name="ElementShortName">HWRITE</obj_property>
+      <obj_property name="ObjectShortName">HWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HWDATA" type="array">
+      <obj_property name="ElementShortName">HWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/valid_transfer" type="logic">
+      <obj_property name="ElementShortName">valid_transfer</obj_property>
+      <obj_property name="ObjectShortName">valid_transfer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/capture_en" type="logic">
+      <obj_property name="ElementShortName">capture_en</obj_property>
+      <obj_property name="ObjectShortName">capture_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/read_req" type="logic">
+      <obj_property name="ElementShortName">read_req</obj_property>
+      <obj_property name="ObjectShortName">read_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/write_req" type="logic">
+      <obj_property name="ElementShortName">write_req</obj_property>
+      <obj_property name="ObjectShortName">write_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/addr_reg" type="array">
+      <obj_property name="ElementShortName">addr_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/write_reg" type="logic">
+      <obj_property name="ElementShortName">write_reg</obj_property>
+      <obj_property name="ObjectShortName">write_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/addr_valid" type="logic">
+      <obj_property name="ElementShortName">addr_valid</obj_property>
+      <obj_property name="ObjectShortName">addr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/flash_region" type="logic">
+      <obj_property name="ElementShortName">flash_region</obj_property>
+      <obj_property name="ObjectShortName">flash_region</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/erase_region_select" type="logic">
+      <obj_property name="ElementShortName">erase_region_select</obj_property>
+      <obj_property name="ObjectShortName">erase_region_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/local_addr" type="array">
+      <obj_property name="ElementShortName">local_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">local_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/u_control_fsm/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/u_control_fsm/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_CS" type="logic">
+      <obj_property name="ElementShortName">FLASH_CS</obj_property>
+      <obj_property name="ObjectShortName">FLASH_CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_RD_EN" type="logic">
+      <obj_property name="ElementShortName">FLASH_RD_EN</obj_property>
+      <obj_property name="ObjectShortName">FLASH_RD_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_PROG_EN" type="logic">
+      <obj_property name="ElementShortName">FLASH_PROG_EN</obj_property>
+      <obj_property name="ObjectShortName">FLASH_PROG_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_ERASE_EN" type="logic">
+      <obj_property name="ElementShortName">FLASH_ERASE_EN</obj_property>
+      <obj_property name="ObjectShortName">FLASH_ERASE_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/read_active" type="logic">
+      <obj_property name="ElementShortName">read_active</obj_property>
+      <obj_property name="ObjectShortName">read_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/wd_capture_en" type="logic">
+      <obj_property name="ElementShortName">wd_capture_en</obj_property>
+      <obj_property name="ObjectShortName">wd_capture_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/write_data_reg" type="array">
+      <obj_property name="ElementShortName">write_data_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/u_flash_interface/flash_addr" type="array">
+      <obj_property name="ElementShortName">flash_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">flash_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_WDATA" type="array">
+      <obj_property name="ElementShortName">FLASH_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FLASH_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_RDATA" type="array">
+      <obj_property name="ElementShortName">FLASH_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FLASH_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_BUSY" type="logic">
+      <obj_property name="ElementShortName">FLASH_BUSY</obj_property>
+      <obj_property name="ObjectShortName">FLASH_BUSY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_DONE" type="logic">
+      <obj_property name="ElementShortName">FLASH_DONE</obj_property>
+      <obj_property name="ObjectShortName">FLASH_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/FLASH_ERROR" type="logic">
+      <obj_property name="ElementShortName">FLASH_ERROR</obj_property>
+      <obj_property name="ObjectShortName">FLASH_ERROR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/rd_capture_en" type="logic">
+      <obj_property name="ElementShortName">rd_capture_en</obj_property>
+      <obj_property name="ObjectShortName">rd_capture_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/dut/read_data_reg" type="array">
+      <obj_property name="ElementShortName">read_data_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HRDATA" type="array">
+      <obj_property name="ElementShortName">HRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HREADYOUT" type="logic">
+      <obj_property name="ElementShortName">HREADYOUT</obj_property>
+      <obj_property name="ObjectShortName">HREADYOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/nvm_controller_top_tb/HRESP" type="logic">
+      <obj_property name="ElementShortName">HRESP</obj_property>
+      <obj_property name="ObjectShortName">HRESP</obj_property>
+   </wvobject>
+</wave_config>
